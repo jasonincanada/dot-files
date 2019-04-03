@@ -11,7 +11,7 @@ set expandtab
 
 " Syntax coloring
 syntax on
-colo elflord
+colo desert
 
 " 2 columns left margin
 set foldcolumn=2
