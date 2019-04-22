@@ -15,3 +15,6 @@ colo desert
 
 " 2 columns left margin
 set foldcolumn=2
+
+" Highlight all other occurrences of the word underneath the cursor
+autocmd CursorMoved * exe printf('match Folded /\V\<%s\>/', escape(expand('<cword>'), '/\'))
