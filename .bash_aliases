@@ -9,6 +9,7 @@ alias gd='git diff'
 alias gs='git status'
 
 # general editing workflow
+alias v='vim'
 alias va='vim app/Main.hs'
 alias vf='vim $file'
 
