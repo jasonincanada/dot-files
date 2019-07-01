@@ -1,0 +1,12 @@
+/* hide left navigation pane */
+#mw-panel {
+    display: none;
+}
+
+.mw-body {
+    margin-left: 1em;
+}
+
+#left-navigation {
+    margin-left: 1em;
+}

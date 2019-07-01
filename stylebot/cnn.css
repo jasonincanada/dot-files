@@ -1,0 +1,4 @@
+/* change default article body font */
+.zn-body__paragraph {
+    font-family: sans-serif;
+}

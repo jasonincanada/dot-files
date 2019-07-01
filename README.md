@@ -9,3 +9,4 @@ File | Description
 [~/.gitconfig](.gitconfig) | Git setup
 [~/.vimrc](.vimrc) | VIM configuration
 [gen-updates.sh](gen-updates.sh) | Generate the sudo command to upgrade all ubuntu packages except open-vm-tools (it hangs forever on my ubuntu VirtualBox guest)
+[stylebot/](stylebot/) | CSS snippets for [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) to adjust HTML styling around the web

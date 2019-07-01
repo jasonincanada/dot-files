@@ -1,0 +1,15 @@
+/* use light color scheme */
+body {
+    background-color: white;
+    color: #333;
+    font-family: monospace;
+}
+
+code {
+    background-color: #ddd;
+}
+
+pre.calendar {
+    background-color: #123;
+    padding: 2em;
+}

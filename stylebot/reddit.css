@@ -1,0 +1,4 @@
+/* hide karma score */
+span.userkarma {
+    display: none;
+}
