@@ -1,4 +1,4 @@
-; AutoHotKey macros for my screen/vi/ghci workflow
+; AutoHotkey macros for my screen/vi/ghci workflow
 
 ; Generic filenames common to most haskell projects
 ::''m::app/Main.hs
