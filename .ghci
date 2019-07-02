@@ -1,1 +1,5 @@
+-- Set prompt to λ
 :set prompt "\ESC[34mλ> \ESC[m"
+
+-- Don't show substitutions in type hole reports
+:set -fmax-valid-substitutions=0
