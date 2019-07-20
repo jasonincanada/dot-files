@@ -1,0 +1,4 @@
+/* widen the margin between speaker's name and text */
+table#utteranceTable tr td:nth-child(3) {
+    padding-left: 10px;
+}
