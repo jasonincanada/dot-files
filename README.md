@@ -9,5 +9,5 @@ File | Description
 [~/.gitconfig](.gitconfig) | Git setup
 [~/.vimrc](.vimrc) | VIM configuration
 [gen-updates.sh](gen-updates.sh) | Generate the sudo command to upgrade all ubuntu packages except open-vm-tools
-[screen-vi-ghci.ahk](screen-vi-ghci.ahk) | AutoHotKey macros for my screen/vi/ghci workflow
+[screen-vi-ghci.ahk](screen-vi-ghci.ahk) | AutoHotkey macros for my screen/vi/ghci workflow
 [stylebot/](stylebot/) | CSS snippets for [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) to adjust HTML styling around the web
