@@ -18,3 +18,9 @@ Return
 #r::
   Send :r{Enter}
 Return
+
+; Enter screen's copy mode and send cursor to top of screen
+#c::
+  Send ^a[
+  Send H
+Return
