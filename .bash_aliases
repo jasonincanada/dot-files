@@ -6,12 +6,14 @@ alias lr='ls -latr'
 alias gco='git commit -m'
 alias ga='git add'
 alias gd='git diff'
+alias gdf='git diff $file'
 alias gs='git status'
 
 # general editing workflow
 alias v='vim'
 alias va='vim app/Main.hs'
 alias vf='vim $file'
+alias hf='hlint $file'
 
 # hakyll shortcuts
 alias sb='stack build'
