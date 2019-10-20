@@ -1,0 +1,9 @@
+/* hide the support icon in the lower right */
+#launcher {
+    display: none;
+}
+
+/* make visited links a distinct color */
+a:visited { 
+    color: #AAA; 
+}
