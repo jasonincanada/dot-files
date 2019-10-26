@@ -24,3 +24,28 @@ Return
   Send ^a[
   Send H
 Return
+
+; Start a screen session with logging on screen 0 and a bash session on 1
+::go-screen::
+
+  ; Start screen
+  ; Assumes you're at a linux prompt at the root path for your session
+  Send screen{Enter}
+
+  ; Click past the intro screen
+  Send {Enter}
+
+  ; Start logging on screen 0 (good for dev sessions, use screen 0 for everything except
+  ; actually editing source code)
+  Send ^a:log
+  Send {Enter}
+
+  ; Write out the current date to log this session's start time
+  Send {#} Starting screen session...{Enter}
+  Send date{Enter}
+
+  ; Start new screen 1
+  Send ^ac
+
+Return
+
