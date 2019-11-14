@@ -9,6 +9,12 @@
   Send {Escape}:wa{Enter}
 Return
 
+; Leave vim insert mode and reflow the paragraph to our textwidth settings
+#g::
+  Send {Escape}
+  Send gqip
+Return
+
 ; Swap to previous screen window
 #n::
   Send ^an
