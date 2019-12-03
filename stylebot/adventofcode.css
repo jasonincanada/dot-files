@@ -1,15 +1,52 @@
-/* use light color scheme */
+/* Light color scheme for Advent of Code */
+
 body {
     background-color: white;
     color: #333;
     font-family: monospace;
 }
 
+h2 {
+    color: green;
+}
+
+code:before {
+    border: none;
+    background: white;
+}
+
 code {
     background-color: #ddd;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+code em {
+    font-weight: bold;
+}
+
+em {
+    color: #67b4ec;
 }
 
 pre.calendar {
-    background-color: #123;
+    background-color: #0f0f23;
     padding: 2em;
 }
+
+.leaderboard-totalscore {
+    color: black;
+}
+
+.stats {
+    background-color: #0f0f23;
+}
+
+.stats-both, .day-success {
+    color: #8f8f3b;
+}
+
+.star-count {
+    color: red;
+}
+
