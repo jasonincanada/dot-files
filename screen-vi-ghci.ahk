@@ -9,6 +9,15 @@
   Send {Escape}:wa{Enter}
 Return
 
+; Leave vim insert mode, save all, drop to shell and run sb (stack build), queue up !?exec
+#s::
+  Send {Escape}:wa{Enter}
+  Sleep 200
+  Send ^z
+  Send sb{Enter}
+  Send {!}?exec
+Return
+
 ; Leave vim insert mode and reflow the paragraph to our textwidth settings
 #g::
   Send {Escape}
