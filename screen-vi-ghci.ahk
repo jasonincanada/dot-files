@@ -54,6 +54,7 @@ Return
   ; actually editing source code)
   Send ^a:log
   Send {Enter}
+  Sleep 500
 
   ; Write out the current date to log this session's start time
   Send {#} Starting screen session...{Enter}
