@@ -15,6 +15,11 @@ alias va='vim app/Main.hs'
 alias vf='vim $file'
 alias hf='hlint $file'
 
+# hledger
+alias ha='hledger add'
+alias hl='hledger'
+alias vj='vim .hledger.journal'
+
 # hakyll shortcuts
 alias sb='stack build'
 alias st='stack test'
