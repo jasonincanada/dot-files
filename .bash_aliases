@@ -26,6 +26,10 @@ alias st='stack test'
 alias sesr='stack exec Site rebuild'
 alias sesw='stack exec Site watch'
 
+# rust
+alias cr='cargo run'
+alias ct='cargo test'
+
 # misc
 alias du1='du --max-depth=1'
 
