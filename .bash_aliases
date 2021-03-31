@@ -21,10 +21,12 @@ alias hl='hledger'
 alias vj='vim .hledger.journal'
 
 # hakyll shortcuts
-alias sb='stack build'
-alias st='stack test'
 alias sesr='stack exec Site rebuild'
 alias sesw='stack exec Site watch'
+
+# haskell dev
+alias sb='stack build'
+alias st='stack test'
 
 # rust
 alias cr='cargo run'
