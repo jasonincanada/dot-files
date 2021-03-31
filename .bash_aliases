@@ -27,6 +27,7 @@ alias sesw='stack exec Site watch'
 # haskell dev
 alias sb='stack build'
 alias st='stack test'
+alias stf='stack test --file-watch'
 
 # rust
 alias cr='cargo run'
