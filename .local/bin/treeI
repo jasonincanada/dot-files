@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# tree with some common ignores
+
+tree -I '__pycache__'
