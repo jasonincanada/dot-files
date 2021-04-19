@@ -2,7 +2,8 @@
 #
 # show the 20 most recently modified files in this and all subdirectories
 
-find . -type f -exec ls -lrt {} + \
+find . -type f -exec ls -lt {} + \
   | grep -v "/.git" \
   | grep -v "__pycache__" \
-  | tail -20
+  | head -20 \
+  | tac
