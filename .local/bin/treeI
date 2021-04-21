@@ -2,4 +2,4 @@
 #
 # tree with some common ignores
 
-tree -I '__pycache__'
+tree -I '__pycache__' -I 'migrations'
