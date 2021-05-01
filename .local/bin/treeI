@@ -2,4 +2,4 @@
 #
 # tree with some common ignores
 
-tree -I '__pycache__|migrations|sql|node_modules|env'
+tree -I '__pycache__|migrations|sql|node_modules|env' $@
