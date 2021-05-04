@@ -8,6 +8,7 @@ File | Description
 [~/.ghci](.ghci) | Set my GHCi prompt to λ>
 [~/.gitconfig](.gitconfig) | Git setup
 [~/.local/bin/](.local/bin/) | Miscellaneous commands/scripts
+[~/.screenrc](.screenrc) | Screen settings
 [~/.vimrc](.vimrc) | VIM configuration
 [gen-updates.sh](gen-updates.sh) | Generate the sudo command to upgrade all ubuntu packages except open-vm-tools
 [hr](hr) | Show last 10 entries in visa, savings accounts and summarize

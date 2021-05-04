@@ -1,0 +1,9 @@
+
+# skip the intro screen
+startup_message off
+
+# show status bar at bottom of screen with host and list of screen windows
+hardstatus alwayslastline "%H   %w"
+
+vbell off
+
