@@ -24,6 +24,13 @@ Return
   Send gqip
 Return
 
+; Start new screen window and ask to set name
+#v::
+  Send ^ac
+  Send ^aA
+  Send ^w
+Return
+
 ; Swap to previous screen window
 #n::
   Send ^an
