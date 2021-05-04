@@ -1,8 +1,0 @@
-#!/bin/bash
-
-hledger register savings | tail
-echo
-hledger register visa    | tail
-echo
-hledger balance visa savings
-
