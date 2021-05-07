@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# Run a .yml file through yq to convert to json, then query the json with fx
+#
+
+yq eval -j < "$1" | fx "${@:2}"
+
+#
+# ~/acronyms.io$ yfx docker-compose.yml ?
+# [
+#   "services",
+#   "networks",
+#   "volumes"
+# ]
+#
+# ~/acronyms.io$ yfx docker-compose.yml .services.postgres ?
+# [
+#   "image",
+#   "environment",
+#   "volumes",
+#   "networks"
+# ]
+# 
+# ~/acronyms.io$ yfx docker-compose.yml .services.postgres.networks
+# {
+#   "acro_net": {
+#     "ipv4_address": "172.16.1.3"
+#   }
+# }
+#
+
