@@ -47,3 +47,10 @@ alias board="stack exec square-game-exe"
 
 # set ed's command prompt
 alias ed="ed -p\"ed> \""
+
+# find a string in all javascript files, case insensitive, recursive, with line numbers
+alias g="grep -inr --include='*.js'"
+
+# django
+alias pm="python manage.py"
+
