@@ -56,5 +56,5 @@ alias pm="python manage.py"
 
 # docker
 alias run="docker run --rm -it "
-alias data="-w /data -v $PWD:/data"     # eg:  $ runv data ubuntu
+alias data="-w /data -v $PWD:/data"     # eg:  $ run data ubuntu
 
