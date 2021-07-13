@@ -55,6 +55,8 @@ alias g="grep -inr --include='*.js'"
 alias pm="python manage.py"
 
 # docker
-alias run="docker run --rm -it "
+alias run="docker run --rm -it "        # note the space at the end which allows us to
+                                        # use another alias afterwords (data)
+
 alias data="-w /data -v $PWD:/data"     # eg:  $ run data ubuntu
 
