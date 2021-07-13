@@ -54,3 +54,7 @@ alias g="grep -inr --include='*.js'"
 # django
 alias pm="python manage.py"
 
+# docker
+alias run="docker run --rm -it "
+alias data="-w /data -v $PWD:/data"     # eg:  $ runv data ubuntu
+
