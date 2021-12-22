@@ -11,5 +11,6 @@ File | Description
 [~/.screenrc](.screenrc) | Screen settings
 [~/.vimrc](.vimrc) | VIM configuration
 [gen-updates.sh](gen-updates.sh) | Generate the sudo command to upgrade all ubuntu packages except open-vm-tools
+[optimizr.ahk](optimizr.ahk) | AutoHotkey macros to emulate the discontinued [Optimizr keyboard](https://matias.ca/optimizer/)
 [screen-vi-ghci.ahk](screen-vi-ghci.ahk) | AutoHotkey macros for my screen/vi/ghci workflow
 [stylebot/](stylebot/) | CSS snippets for [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) to adjust HTML styling around the web
