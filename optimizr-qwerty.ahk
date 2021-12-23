@@ -25,3 +25,6 @@ CapsLock & n::Send {End}
 CapsLock & h::Send ^{Left}
 CapsLock & `;::Send ^{Right}
 
+; other
+CapsLock & Space::Send {Enter}
+
