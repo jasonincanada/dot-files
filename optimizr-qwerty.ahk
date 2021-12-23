@@ -27,4 +27,5 @@ CapsLock & `;::Send ^{Right}
 
 ; other
 CapsLock & Space::Send {Enter}
+CapsLock & p::Send {Del}
 
