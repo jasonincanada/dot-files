@@ -30,4 +30,5 @@ CapsLock & -::Send ^{Right}
 ; other
 CapsLock & Space::Send {Enter}
 CapsLock & l::Send {Del}
+CapsLock & Backspace::Send ^{Del}
 
