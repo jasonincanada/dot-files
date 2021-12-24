@@ -31,5 +31,5 @@ CapsLock & p::Send {Del}
 
 ; delete word left/right
 CapsLock & Backspace::Send ^{Backspace}
-CapsLock & ]::Send ^{Del}
+CapsLock & -::Send ^{Del}
 
