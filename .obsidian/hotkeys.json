@@ -2,7 +2,7 @@
   "editor:focus-left": [
     {
       "modifiers": [
-        "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "ArrowLeft"
@@ -11,7 +11,7 @@
   "editor:focus-right": [
     {
       "modifiers": [
-        "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "ArrowRight"
