@@ -1,4 +1,13 @@
 {
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
   "editor:focus-left": [
     {
       "modifiers": [
