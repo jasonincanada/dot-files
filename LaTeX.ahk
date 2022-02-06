@@ -7,4 +7,8 @@
 ; type \\o to write \overline{} and put the cursor within the {}
 ;
 :*:\\o::\overline{{}{}}{left 1}
+
+; overline surrounded by $ $
+:*:$\o::$\overline{{}{}}${left 2}
+
 :*:\\t::\text{{}{}}{left 1}
