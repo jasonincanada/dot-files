@@ -30,6 +30,7 @@ CapsLock & -::Send ^{Right}
 ; other
 CapsLock & Space::Send {Enter}
 CapsLock & l::Send {Del}
+CapsLock & s::Send {Escape}
 
 ; delete word left/right
 CapsLock & Backspace::Send ^{Backspace}
