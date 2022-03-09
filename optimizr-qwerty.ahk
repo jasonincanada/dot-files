@@ -23,11 +23,12 @@ CapsLock & n::Send {End}
 
 ; word left/right
 CapsLock & h::Send ^{Left}
-CapsLock & `;::Send ^{Right}
+CapsLock & '::Send ^{Right}
 
 ; other
 CapsLock & Space::Send {Enter}
 CapsLock & p::Send {Del}
+CapsLock & `;::Send {Escape}
 
 ; delete word left/right
 CapsLock & Backspace::Send ^{Backspace}
