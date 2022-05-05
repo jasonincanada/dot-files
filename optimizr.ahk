@@ -6,6 +6,9 @@
 ;
 ; For example, CapsLock+d is the same as pressing Ctrl-Left to move left a word
 ;
+; Recent versions of AutoHotkey leave the CapsLock key on after using these shortcuts.
+; It works properly with version 1.1.24.05 (the CapsLock key doesn't stay on)
+;
 ; Assumes Dvorak layout to match the physical locations on the Optimizr keyboard
 ;
 

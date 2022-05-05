@@ -4,6 +4,9 @@
 ; This uses the CapsLock key to modify some keys on and around the home row
 ; so you don't have to move your right hand off the home row just to move around
 ;
+; Recent versions of AutoHotkey leave the CapsLock key on after using these shortcuts.
+; It works properly with version 1.1.24.05 (the CapsLock key doesn't stay on)
+;
 ; For example, CapsLock+h is the same as pressing Ctrl-Left to move left a word
 ;
 
